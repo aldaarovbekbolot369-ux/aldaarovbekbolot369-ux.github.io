@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ВАШ_ЛОГИН.github.io/cafe-site/</loc></url>
-  <url><loc>https://ВАШ_ЛОГИН.github.io/cafe-site/index.html</loc></url>
-  <url><loc>https://ВАШ_ЛОГИН.github.io/cafe-site/menu.html</loc></url>
-  <url><loc>https://ВАШ_ЛОГИН.github.io/cafe-site/about.html</loc></url>
-  <url><loc>https://ВАШ_ЛОГИН.github.io/cafe-site/contact.html</loc></url>
+  <url>
+    <loc>https://aldaarovbekbolot369-ux.github.io/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://aldaarovbekbolot369-ux.github.io/index.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://aldaarovbekbolot369-ux.github.io/about.html</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://aldaarovbekbolot369-ux.github.io/menu.html</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://aldaarovbekbolot369-ux.github.io/contact.html</loc>
+    <priority>0.6</priority>
+    <changefreq>yearly</changefreq>
+  </url>
 </urlset>
