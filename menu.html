@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Меню — Cozy Bean</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Меню кафе Cozy Bean: спешелти кофе, матча, свежая выпечка и десерты.">
+
+  <!-- CDN -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aldaarovbekbolot369-ux/cafe22.github.io@main/dist/app.min.css">
+  <!-- Надёжный бэкап: локальный CSS (загрузится даже если CDN не ответит) -->
+  <link rel="stylesheet" href="dist/app.min.css">
+
+  <!-- микро-критикал, чтобы не мигало -->
+  <style>
+    html,body{margin:0}
+    .header{background:#fff}
+    body{background:#fbf0ea;color:#2b1e17}
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__wrap">
+      <div class="logo">☕ Cozy <strong>Bean</strong></div>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="menu.html" class="active">Меню</a>
+        <a href="about.html">О нас</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="menu">
+      <div class="container">
+        <h1>Наше меню</h1>
+        <p class="subtitle">Попробуйте наш кофе и свежую выпечку</p>
+
+        <div class="menu-grid">
+          <!-- карточки -->
+          <article class="menu-item">
+            <picture>
+              <source srcset="assets/img/cappuccino.webp" type="image/webp">
+              <img src="assets/img/cappuccino.jpg" alt="Капучино"
+                   width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <h3>Капучино</h3>
+            <p>Молочная пенка, эспрессо и уют в каждой чашке.</p>
+            <span class="price">18 RON</span>
+          </article>
+
+          <article class="menu-item">
+            <picture>
+              <source srcset="assets/img/latte.webp" type="image/webp">
+              <img src="assets/img/latte.jpg" alt="Латте"
+                   width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <h3>Латте</h3>
+            <p>Мягкий кофе с нежным вкусом и красивым рисунком.</p>
+            <span class="price">20 RON</span>
+          </article>
+
+          <article class="menu-item">
+            <picture>
+              <source srcset="assets/img/americano.webp" type="image/webp">
+              <img src="assets/img/americano.jpg" alt="Американо"
+                   width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <h3>Американо</h3>
+            <p>Классический выбор для ценителей крепкого вкуса.</p>
+            <span class="price">15 RON</span>
+          </article>
+
+          <article class="menu-item">
+            <picture>
+              <source srcset="assets/img/cur.webp" type="image/webp">
+              <img src="assets/img/cur.jpg" alt="Круассан"
+                   width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <h3>Круассан</h3>
+            <p>Хрустящий и свежий, с маслом и любовью.</p>
+            <span class="price">10 RON</span>
+          </article>
+
+          <article class="menu-item">
+            <picture>
+              <source srcset="assets/img/chiz.webp" type="image/webp">
+              <img src="assets/img/chiz.jpg" alt="Чизкейк Нью-Йорк"
+                   width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <h3>Чизкейк Нью-Йорк</h3>
+            <p>Нежный десерт с крем-сыром и ванилью.</p>
+            <span class="price">22 RON</span>
+          </article>
+
+          <article class="menu-item">
+            <picture>
+              <source srcset="assets/img/match.webp" type="image/webp">
+              <img src="assets/img/match.jpeg" alt="Матча латте"
+                   width="800" height="600" loading="lazy" decoding="async">
+            </picture>
+            <h3>Матча латте</h3>
+            <p>Сбалансированный вкус японского зелёного чая.</p>
+            <span class="price">25 RON</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="cb-footer" role="contentinfo">
+    <div class="cb-container">
+      <div class="cb-grid">
+        <section class="cb-col cb-brand">
+          <a href="/" class="cb-brand-line" aria-label="На главную">
+            <span class="cb-mark">CB</span>
+            <span class="cb-name">Cozy Bean</span>
+          </a>
+          <p class="cb-slogan">Кофе. Выпечка. Атмосфера.</p>
+        </section>
+
+        <nav class="cb-col" aria-label="Разделы сайта">
+          <h3 class="cb-title">Разделы</h3>
+          <ul class="cb-links">
+            <li><a href="menu.html">Меню</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <section class="cb-col">
+          <h3 class="cb-title">Контакты</h3>
+          <ul class="cb-info">
+            <li><span>Тел.: </span><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
+            <li><span>Email: </span><a href="mailto:hello@cozybean.example">hello@cozybean.example</a></li>
+            <li><span>Адрес: </span><span>Красноярск, ул. Примерная, 12</span></li>
+            <li class="cb-socials">
+              <a href="#" aria-label="VK">VK</a>
+              <a href="#" aria-label="Telegram">TG</a>
+              <a href="#" aria-label="Instagram">IG</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="cb-col">
+          <h3 class="cb-title">Мы открыты</h3>
+          <ul class="cb-info">
+            <li>Пн–Пт: 08:00–22:00</li>
+            <li>Сб–Вс: 09:00–23:00</li>
+          </ul>
+
+          <form id="cb-subscribe" class="cb-sub" action="#" method="post" novalidate>
+            <label for="cb-email" class="cb-visually-hidden">Email</label>
+            <div class="cb-sub-row">
+              <input id="cb-email" name="email" type="email" placeholder="Ваш email" required>
+              <button type="submit" class="cb-btn">Подписаться</button>
+            </div>
+            <p class="cb-hint">Новые десерты и акции — раз в неделю.</p>
+          </form>
+        </section>
+      </div>
+
+      <div class="cb-bottom">
+        <small>© <span id="cb-year"></span> Cozy Bean</small>
+      </div>
+    </div>
+
+    <button id="cb-top" class="cb-top" aria-label="Наверх">▲</button>
+  </footer>
+
+  <!-- JS через CDN + фолбэк на локальный -->
+  
+  <script>
+    (function(){
+      var s=document.createElement('script');
+      s.src='https://cdn.jsdelivr.net/gh/aldaarovbekbolot369-ux/cafe22.github.io@main/dist/app.min.js';
+      s.defer=true;
+      s.onerror=function(){
+        var l=document.createElement('script');
+        l.src='dist/app.min.js';
+        l.defer=true;
+        document.body.appendChild(l);
+      };
+      document.body.appendChild(s);
+    })();
+  </script>
+  <!-- JS через CDN + простой бэкап локально -->
+<script src="https://cdn.jsdelivr.net/gh/aldaarovbekbolot369-ux/cafe22.github.io@main/dist/app.min.js" defer></script>
+<script src="dist/app.min.js" defer></script>
+
+</body>
+</html>
